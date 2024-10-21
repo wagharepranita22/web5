@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+  box-sizing: border-box;
+ font-family: gilroy;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between
+}
+#parent2{
+    height: 400px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    transform: translate(-10%,-60%);
+}
+#nav1{
+    display: flex;
+    padding: 10px 20px;
+    
+}
+
+#nav2{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}   
+
+#nav3{
+    display: flex;
+    padding : 30px 20px;
+}
+#btn1{
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-right: 10px ;
+    padding-left: 10px;
+    background-color: white;
+    text-transform: capitalize;
+}
+#btn2{
+    border: solid 2px black;
+    border-radius: 5px;
+    margin-right: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    background-color: black;
+    text-transform: capitalize;
+}
+
+
+img{
+    height: 450px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-10%,-60%);
+    border-radius: 35px;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-10%,-60%);
+    color: azure;
+    
+}
+input{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-top: 20px;
+
+
+}
+
+
+#btn{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+    background-color: black;
+}
